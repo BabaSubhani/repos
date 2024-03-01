@@ -1,0 +1,58 @@
+.repo-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8ff;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* example box shadow */
+}
+
+@media screen and (min-width: 768px) {
+  .repo-item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8ff;
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* example box shadow */
+  }
+}
+
+.avatar-img {
+  height: 150px;
+}
+
+.repo-name {
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+.other-information-top-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other-information-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.other-imgs {
+  height: 20px;
+  margin-right: 10px;
+}
